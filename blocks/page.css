@@ -1,0 +1,39 @@
+.page {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__logo {
+  width: 15.9375rem;
+  margin: 2.125rem auto 0;
+}
+
+@media screen and (max-width: 64rem) {
+  .page {
+    width: 100%;
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page__logo {
+    width: 15.875rem;
+    margin: 1.875rem auto 0;
+  }
+}
+
+@media screen and (max-width: 34rem) {
+  .page {
+    width: 100%;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page__logo {
+    width: 11.75rem;
+    margin: 1.25rem auto 0;
+  }
+}
