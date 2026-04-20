@@ -44,36 +44,30 @@
 
 @media screen and (max-width: 64rem) {
   .content {
-    max-width: 45rem;
     margin: 5.625rem auto 0;
   }
 
   .content__title {
-    max-width: 44.1875rem;
     font-size: 2.8125rem;
     line-height: 3.0625rem;
     margin-right: 0.8125rem;
   }
 
   .content__cite {
-    max-width: 45rem;
     margin: 3.125rem auto 0;
   }
 
   .content__cite-autor {
-    max-width: 45rem;
     margin: -0.5rem auto 0;
   }
 
   .content__description {
-    max-width: 45rem;
     margin: 2rem auto 0;
   }
 }
 
 @media (max-width: 34rem) {
   .content {
-    max-width: 18rem;
     margin: 4rem auto 0;
   }
 
@@ -84,19 +78,16 @@
   }
 
   .content__cite {
-    max-width: 18rem;
     font-size: 1.5rem;
     line-height: 1.875rem;
     margin: 2.5rem auto 0;
   }
 
   .content__cite-autor {
-    max-width: 18rem;
     margin: 0.625rem auto 0;
   }
 
   .content__description {
-    max-width: 18rem;
     margin: 2rem auto 0;
   }
 }
