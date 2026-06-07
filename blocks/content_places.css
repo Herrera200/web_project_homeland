@@ -121,6 +121,7 @@
   .place-card {
     max-width: 45rem;
     grid-template-columns: 21.25rem 1fr;
+    grid-auto-rows: auto 21.25rem auto;
     column-gap: 1.75rem;
     grid-template-areas:
       "title artist"
