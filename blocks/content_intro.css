@@ -1,0 +1,103 @@
+.content-section_intro {
+  max-width: 51.875rem;
+  display: flex;
+  flex-direction: column;
+  margin: 5.75rem 18.875rem 0 9.25rem;
+}
+
+.content-section__title {
+  width: 100%;
+  font-size: 54px;
+  line-height: 1.074;
+  font-weight: 900;
+  letter-spacing: 0%;
+  margin: auto;
+}
+
+.content-section__cite {
+  max-width: 46.125rem;
+  font-size: 24px;
+  line-height: 1.4167;
+  font-weight: 400;
+  letter-spacing: 0%;
+  margin: 2.5rem 5.75rem 0 0;
+}
+
+.content-section__author {
+  max-width: 45.75rem;
+  font-size: 24px;
+  line-height: 1.4167;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: right;
+  margin: 0.625rem 6.125rem 0 0;
+}
+
+.content-section__description {
+  max-width: 45.125rem;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+  letter-spacing: 0%;
+  margin: 2rem 6.75rem 0 0;
+}
+
+@media screen and (max-width: 64rem) {
+  .content-section_intro {
+    max-width: 45rem;
+    margin: 5.625rem auto 0;
+  }
+
+  .content-section__title {
+    font-size: 45px;
+    line-height: 1.089;
+    letter-spacing: 0%;
+    margin-right: 0.8125rem;
+  }
+
+  .content-section__cite {
+    max-width: 45rem;
+    margin: 3.125rem auto 0;
+  }
+
+  .content-section__author {
+    max-width: 45rem;
+    margin: -0.5rem 0 0;
+  }
+
+  .content-section__description {
+    max-width: 45rem;
+    margin: 2rem auto 0;
+  }
+}
+
+@media (max-width: 34rem) {
+  .content-section_intro {
+    max-width: 18rem;
+    margin: 4rem auto 0;
+  }
+
+  .content-section__title {
+    font-size: 32px;
+    line-height: 1.09375;
+    letter-spacing: 0%;
+    margin: auto;
+  }
+
+  .content-section__cite {
+    max-width: 18rem;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0%;
+    margin: 2.5rem auto 0;
+  }
+
+  .content-section__author {
+    width: 18rem;
+    margin-top: 0.625rem;
+  }
+
+  .content-section__description {
+    margin: 2rem auto 0;
+  }
+}

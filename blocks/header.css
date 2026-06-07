@@ -1,5 +1,4 @@
 .header {
-  width: 100%;
   max-width: 61.5rem;
   display: flex;
   flex-direction: column;
@@ -7,35 +6,33 @@
 }
 
 .header__title {
-  width: 100%;
   max-width: 45rem;
-  font-size: 6rem;
-  line-height: 6.25rem;
+  font-size: 96px;
+  line-height: 1.0416666667;
+  letter-spacing: 0;
   font-weight: 900;
   margin: 0 auto;
   text-align: center;
 }
 
 .header__description {
-  width: 100%;
   max-width: 45rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 30px;
+  line-height: 1.2;
   font-weight: 400;
   margin: 2rem auto 0;
   text-align: center;
+  letter-spacing: 0%;
 }
 
 .header__media {
-  width: 100%;
   max-width: 61.5rem;
-  margin: 4rem auto 0;
+  margin-top: 4rem;
   position: relative;
 }
 
 .header__image {
   width: 100%;
-  max-width: 61.5rem;
 }
 
 .header__image_hue {
@@ -51,12 +48,14 @@
 
 @media screen and (max-width: 64rem) {
   .header {
+    max-width: 48rem;
     margin: 5.625rem auto 0;
   }
 
   .header__title {
-    font-size: 4.6875rem;
-    line-height: 4.9375rem;
+    max-width: 33.125rem;
+    font-size: 75px;
+    line-height: 1.0533333333;
   }
 
   .header__description {
@@ -70,19 +69,22 @@
 
 @media (max-width: 34rem) {
   .header {
+    max-width: 20rem;
     margin: 3.125rem auto 0;
   }
 
   .header__title {
-    font-size: 2.5rem;
-    line-height: 2.75rem;
+    font-size: 40px;
+    line-height: 1.1;
+    max-width: 14.25rem;
+    letter-spacing: 0%;
   }
 
   .header__description {
+    max-width: 18rem;
+    font-size: 16px;
+    line-height: 1.25;
     margin-top: 1rem;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    margin: 1rem auto 0;
   }
 
   .header__media {
