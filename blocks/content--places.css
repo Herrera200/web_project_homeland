@@ -1,4 +1,4 @@
-.content-section_places {
+.content-section--places {
   max-width: 61.6875rem;
   display: flex;
   flex-direction: column;
@@ -139,7 +139,7 @@
 }
 
 @media screen and (max-width: 64rem) {
-  .content-section_places {
+  .content-section--places {
     max-width: 45rem;
     margin: 5.5rem auto 0;
     gap: 4.5rem;
@@ -195,7 +195,7 @@
 }
 
 @media (max-width: 34rem) {
-  .content-section_places {
+  .content-section--places {
     max-width: 20rem;
     margin: 3.875rem 0 0 0;
     gap: 3.125rem;
