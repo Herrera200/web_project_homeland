@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 
-.place-card__artist-description__heading {
+.place-card__artist-description-heading {
   max-width: 5.323125rem;
   font-size: 0.75rem;
   line-height: 1;
@@ -50,7 +50,7 @@
   margin: 0 0 0.5rem;
 }
 
-.place-card__artist-description__name {
+.place-card__artist-description-name {
   max-width: 28.5rem;
   font-size: 1.125rem;
   line-height: 1.222222;
@@ -170,11 +170,11 @@
     max-width: 22rem;
   }
 
-  .place-card__artist-description__heading {
+  .place-card__artist-description-heading {
     max-width: 4.1875rem;
   }
 
-  .place-card__artist-description__name {
+  .place-card__artist-description-name {
     max-width: 22rem;
   }
 
@@ -222,11 +222,11 @@
     align-self: start;
   }
 
-  .place-card__artist-description__heading {
+  .place-card__artist-description-heading {
     max-width: 18rem;
   }
 
-  .place-card__artist-description__name {
+  .place-card__artist-description-name {
     max-width: 18.5rem;
   }
 
