@@ -1,4 +1,4 @@
-.places {
+.place {
   max-width: 61.6875rem;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
   margin: 0;
 }
 
-.artist-description {
+.place-card__artist-description {
   max-width: 28.5rem;
   align-self: end;
   grid-area: artist;
@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 
-.artist-description__heading {
+.place-card__artist-description__heading {
   max-width: 5.323125rem;
   font-size: 0.75rem;
   line-height: 1;
@@ -50,7 +50,7 @@
   margin: 0 0 0.5rem;
 }
 
-.artist-description__name {
+.place-card__artist-description__name {
   max-width: 28.5rem;
   font-size: 1.125rem;
   line-height: 1.222222;
@@ -166,15 +166,15 @@
     justify-content: end;
   }
 
-  .artist-description {
+  .place-card__artist-description {
     max-width: 22rem;
   }
 
-  .artist-description__heading {
+  .place-card__artist-description__heading {
     max-width: 4.1875rem;
   }
 
-  .artist-description__name {
+  .place-card__artist-description__name {
     max-width: 22rem;
   }
 
@@ -216,17 +216,17 @@
     margin: 0 1rem 0;
   }
 
-  .artist-description {
+  .place-card__artist-description {
     max-width: 18rem;
     margin: 0 1rem 0;
     align-self: start;
   }
 
-  .artist-description__heading {
+  .place-card__artist-description__heading {
     max-width: 18rem;
   }
 
-  .artist-description__name {
+  .place-card__artist-description__name {
     max-width: 18.5rem;
   }
 
